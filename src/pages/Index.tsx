@@ -45,7 +45,7 @@ export default function Index() {
                   </div>
                   <div className="pt-4 border-t border-white/20">
                     <p className="text-sm md:text-base opacity-80">
-                      Registre-se e seja notificado no lançamento!
+                      Registre-se e seja notificado no lançamento! Teremos planos super acessíveis!
                     </p>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ export default function Index() {
                     <span className="text-[#2D1B69] text-xl font-bold">🏥</span>
                   </div>
                   <h3 className="font-semibold text-[#2D1B69]">Gestão Veterinária</h3>
-                  <p className="text-sm text-gray-600">Sistema completo para clínicas, consultórios e médicos veterinários autônomos</p>
+                  <p className="text-sm text-gray-600">Sistema para clínicas, consultórios e médicos veterinários autônomos</p>
                 </div>
               </div>
               
@@ -74,7 +74,7 @@ export default function Index() {
                     <span className="text-[#2D1B69] text-xl font-bold">🏪</span>
                   </div>
                   <h3 className="font-semibold text-[#2D1B69]">Gestão de Pet Shop</h3>
-                  <p className="text-sm text-gray-600">Gerenciamento completo da agenda de serviços do pet shop, além do controle de entrega dos pets!</p>
+                  <p className="text-sm text-gray-600">Gerenciamento da agenda e controle de execulção dos serviços estéticos!</p>
                 </div>
               </div>
               
@@ -84,7 +84,7 @@ export default function Index() {
                     <span className="text-[#2D1B69] text-xl font-bold">🔗</span>
                   </div>
                   <h3 className="font-semibold text-[#2D1B69]">Integração Personalizada</h3>
-                  <p className="text-sm text-gray-600">Através do modelo de integração, o PetSys é flexível e permite se conectar e ser conectado com outros sistemas</p>
+                  <p className="text-sm text-gray-600">Permite integração com outros sistemas conforme necessidade.</p>
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function Index() {
             <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent flex-1"></div>
           </div>
           <p>© {currentYear} PetSys. Todos os direitos reservados.</p>
-          <p className="text-xs opacity-75">Transformando o cuidado pet através da tecnologia</p>
+          <p className="text-xs opacity-75">Serviços veterinários e pet shop em outro nível 🚀</p>
         </div>
       </div>
     </div>
