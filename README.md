@@ -1,20 +1,68 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Shadcn-UI Template Usage Instructions
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## technology stack
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+This project is built with:
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+All shadcn/ui components have been downloaded under `@/components/ui`.
+
+## File Structure
+
+- `index.html` - HTML entry point
+- `vite.config.ts` - Vite configuration file
+- `tailwind.config.js` - Tailwind CSS configuration file
+- `package.json` - NPM dependencies and scripts
+- `src/app.tsx` - Root component of the project
+- `src/main.tsx` - Project entry point
+- `src/index.css` - Existing CSS configuration
+- `src/pages/Index.tsx` - Home page logic
+
+## Components
+
+- All shadcn/ui components are pre-downloaded and available at `@/components/ui`
+
+## Styling
+
+- Add global styles to `src/index.css` or create new CSS files as needed
+- Use Tailwind classes for styling components
+
+## Development
+
+- Import components from `@/components/ui` in your React components
+- Customize the UI by modifying the Tailwind configuration
+
+## Note
+
+- The `@/` path alias points to the `src/` directory
+- In your typescript code, don't re-export types that you're already importing
+
+# Commands
+
+**Install Dependencies**
+
+```shell
+pnpm i
+```
+
+**Add Dependencies**
+
+```shell
+pnpm add some_new_dependency
+
+**Start Preview**
+
+```shell
+pnpm run dev
+```
+
+**To build**
+
+```shell
+pnpm run build
+```
