@@ -37,10 +37,10 @@ export default function Index() {
                   </p>
                   <div className="space-y-2">
                     <p className="text-4xl md:text-6xl font-bold text-[#B8A9FF]">
-                      Dezembro
+                      Março
                     </p>
                     <p className="text-3xl md:text-5xl font-bold">
-                      2025
+                      2026
                     </p>
                   </div>
                   <div className="pt-4 border-t border-white/20">
