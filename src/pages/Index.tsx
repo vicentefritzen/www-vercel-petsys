@@ -58,36 +58,46 @@ export default function Index() {
 
             {/* Features Preview */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 max-w-4xl mx-auto">
+              {/* Quadro 1 */}
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-purple-100 hover:shadow-xl transition-all duration-300">
                 <div className="text-center space-y-3">
                   <div className="w-12 h-12 bg-[#B8A9FF] rounded-full flex items-center justify-center mx-auto">
-                    <span className="text-[#2D1B69] text-xl font-bold">🏥</span>
+                    <span className="text-[#2D1B69] text-xl font-bold">🐾</span>
                   </div>
                   <h3 className="font-semibold text-[#2D1B69]">Gestão Veterinária</h3>
-                  <p className="text-sm text-gray-600">Sistema para clínicas, consultórios e médicos veterinários autônomos</p>
+                  <p className="text-sm text-gray-600">
+                    Organize consultas, prontuários e histórico dos pacientes em um só lugar. Tudo com automação, relatórios inteligentes e suporte especializado para facilitar o dia a dia do médico veterinário.
+                  </p>
                 </div>
               </div>
-              
+
+              {/* Quadro 2 */}
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-purple-100 hover:shadow-xl transition-all duration-300">
                 <div className="text-center space-y-3">
                   <div className="w-12 h-12 bg-[#B8A9FF] rounded-full flex items-center justify-center mx-auto">
-                    <span className="text-[#2D1B69] text-xl font-bold">🏪</span>
+                    <span className="text-[#2D1B69] text-xl font-bold">🛍️</span>
                   </div>
                   <h3 className="font-semibold text-[#2D1B69]">Gestão de Pet Shop</h3>
-                  <p className="text-sm text-gray-600">Gerenciamento da agenda e controle de execulção dos serviços estéticos!</p>
+                  <p className="text-sm text-gray-600">
+                    Agende, controle e acompanhe banhos, tosas e serviços com facilidade. Tudo pensado para otimizar sua operação, garantir satisfação dos clientes e aumentar a produtividade da equipe.
+                  </p>
                 </div>
               </div>
-              
+
+              {/* Quadro 3 */}
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-purple-100 hover:shadow-xl transition-all duration-300">
                 <div className="text-center space-y-3">
                   <div className="w-12 h-12 bg-[#B8A9FF] rounded-full flex items-center justify-center mx-auto">
-                    <span className="text-[#2D1B69] text-xl font-bold">🔗</span>
+                    <span className="text-[#2D1B69] text-xl font-bold">🤖</span>
                   </div>
-                  <h3 className="font-semibold text-[#2D1B69]">Integração Personalizada</h3>
-                  <p className="text-sm text-gray-600">Permite integração com outros sistemas conforme necessidade.</p>
+                  <h3 className="font-semibold text-[#2D1B69]">Inteligência Artificial</h3>
+                  <p className="text-sm text-gray-600">
+                    Receba recomendações automáticas, insights e diagnósticos assistidos por IA. Uma tecnologia que aprende com seus atendimentos e torna sua rotina mais ágil e assertiva.
+                  </p>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
