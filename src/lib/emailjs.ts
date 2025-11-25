@@ -8,14 +8,17 @@ export interface ContactFormData {
   message: string;
 }
 
-export const sendContactEmail = async (formData: ContactFormData): Promise<void> => {
+// Initialize EmailJS with your public key
+emailjs.init("ZchN5NxCTPE9pdmJ8");
+
+export const sendContactEmail = async (data: ContactFormData): Promise<void> => {
   const templateParams = {
-    from_name: formData.name,
-    from_email: formData.email,
-    phone: formData.phone,
-    company: formData.company,
-    message: formData.message,
-    to_name: 'PetSys Team',
+    from_name: data.name,
+    from_email: data.email,
+    from_phone: data.phone,
+    empresa: data.company,
+    message: data.message,
+    to_name: 'PetSys',
   };
 
   try {
@@ -27,6 +30,6 @@ export const sendContactEmail = async (formData: ContactFormData): Promise<void>
     );
   } catch (error) {
     console.error('Erro ao enviar email:', error);
-    throw new Error('Falha ao enviar mensagem. Tente novamente.');
+    throw error;
   }
 };

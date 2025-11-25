@@ -21,7 +21,6 @@ All shadcn/ui components have been downloaded under `@/components/ui`.
 - `src/app.tsx` - Root component of the project
 - `src/main.tsx` - Project entry point
 - `src/index.css` - Existing CSS configuration
-- `src/pages/Index.tsx` - Home page logic
 
 ## Components
 
@@ -39,8 +38,7 @@ All shadcn/ui components have been downloaded under `@/components/ui`.
 
 ## Note
 
-- The `@/` path alias points to the `src/` directory
-- In your typescript code, don't re-export types that you're already importing
+The `@/` path alias points to the `src/` directory
 
 # Commands
 
@@ -49,11 +47,6 @@ All shadcn/ui components have been downloaded under `@/components/ui`.
 ```shell
 pnpm i
 ```
-
-**Add Dependencies**
-
-```shell
-pnpm add some_new_dependency
 
 **Start Preview**
 
