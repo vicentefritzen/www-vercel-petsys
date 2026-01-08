@@ -95,7 +95,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
-              © 2025 PetSys. Todos os direitos reservados.
+              © 2026 PetSys. Todos os direitos reservados.
             </div>
             <div className="flex items-center gap-6 text-sm text-gray-400">
               <button 
@@ -186,7 +186,7 @@ export default function Footer() {
           
           <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white p-4 rounded-b-2xl text-center">
             <p className="text-sm font-medium">
-              © 2025 VF Tecnologia Ltda. - Todos os direitos reservados.
+              © 2026 VF Tecnologia Ltda. - Todos os direitos reservados.
             </p>
           </div>
         </div>

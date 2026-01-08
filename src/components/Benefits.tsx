@@ -3,10 +3,11 @@ import { Badge } from '@/components/ui/badge';
 import { CheckCircle, TrendingUp, Clock, Users } from 'lucide-react';
 
 const benefits = [
-  "Gestão completa de clientes e pets",
+  "Agenda de serviços (consultas, banhos, tosas, ofurôs, etc.)",
+  "Cadastro completo de clientes e pets",
   "Controle de vacinação e peso",
+  "Gestão de contratos de serviços (planos mensais)",
   "Prontuários digitais organizados",
-  "Contratos de serviço integrados",
   "Recursos integrados para diagnósticos",
   "Relatórios e documentos de saúde dos pets",
   "Armazenamento de exames médicos dos pets",
